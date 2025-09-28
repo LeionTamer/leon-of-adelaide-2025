@@ -1,4 +1,6 @@
 import Image from "next/image";
+// import App as MapApp from
+import { App } from "@/components/map/test";
 
 export default function Home() {
   return (
@@ -49,6 +51,9 @@ export default function Home() {
           >
             Read our docs
           </a>
+        </div>
+        <div className="h-sreen w-screen">
+          <App />
         </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
